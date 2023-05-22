@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(2, 56, 95) ,rgb(1, 86, 119));
+}
+
+
+main {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    width: 600px;
+    height: 600px;
+    background-color: #d0d5db;
+    border-radius: 600px;
+    border: 12px solid #272727;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.number {
+    font-size: 1.2rem;
+    font-weight: 580;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.number-1 {
+    transform: rotate(30deg);
+}
+
+.number-2 {
+    transform: rotate(60deg);
+}
+
+.number-3 {
+    transform: rotate(90deg);
+}
+
+.number-4 {
+    transform: rotate(120deg);
+}
+
+.number-5 {
+    transform: rotate(150deg);
+}
+
+.number-6 {
+    transform: rotate(180deg);
+}
+
+.number-7 {
+    transform: rotate(210deg);
+}
+
+.number-8 {
+    transform: rotate(240deg);
+}
+
+.number-9 {
+    transform: rotate(270deg);
+}
+
+.number-10 {
+    transform: rotate(300deg);
+}
+
+.number-11 {
+    transform: rotate(330deg);
+}
+
+.number-12 {
+    transform: rotate(360deg);
+}
+
+.second-hand {
+    width: 5px;
+    height: 210px;
+    background-color: #7d1717;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.minute-hand {
+    width: 8px;
+    height: 200px;
+    background-color: #323232;
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.hour-hand {
+    width: 10px;
+    height: 150px;
+    background-color: #323232;
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.center {
+    width: 20px;
+    height: 20px;
+    background-color: #7d1717;
+    border-radius: 20px;
+    position: absolute;
+}
